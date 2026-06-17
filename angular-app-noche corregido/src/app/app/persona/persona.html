@@ -1,0 +1,91 @@
+<p>persona works!</p>
+
+<h1>Formulario Persona</h1>
+
+<form>
+
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre">
+
+  <br><br>
+
+  <label for="apellido">Apellido:</label>
+  <input type="text" id="apellido">
+
+  <br><br>
+
+  <label for="edad">Edad:</label>
+  <input type="number" id="edad">
+
+  <br><br>
+  <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+
+<input
+  type="date"
+  id="fechaNacimiento"
+  [max]="fechaMaxima">
+
+<br><br>
+
+  <label for="correo">Correo:</label>
+  <input type="email" id="correo">
+
+  <br><br>
+
+  <label for="telefono">Telefono:</label>
+  <input type="text" id="telefono">
+
+  <br><br>
+
+  <button type="submit">Guardar</button>
+
+</form>
+
+<br><br>
+
+<h1>Tabla de Personas</h1>
+
+<table border="1" cellpadding="10">
+
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Edad</th>
+    <th>Correo</th>
+    <th>Telefono</th>
+  </tr>
+
+  <tr>
+    <td>Richard</td>
+    <td>Prado</td>
+    <td>20</td>
+    <td>richard@gmail.com</td>
+    <td>3001234567</td>
+  </tr>
+
+  <tr>
+    <td>Maria</td>
+    <td>Lopez</td>
+    <td>22</td>
+    <td>maria@gmail.com</td>
+    <td>3112223344</td>
+  </tr>
+
+  <tr>
+    <td>Carlos</td>
+    <td>Gomez</td>
+    <td>25</td>
+    <td>carlos@gmail.com</td>
+    <td>3205557788</td>
+  </tr>
+  
+  <tr>
+  <th>Nombre</th>
+  <th>Apellido</th>
+  <th>Edad</th>
+  <th>Fecha Nacimiento</th>
+  <th>Correo</th>
+  <th>Telefono</th>
+</tr>
+
+</table>
